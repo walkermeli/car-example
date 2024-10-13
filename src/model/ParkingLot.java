@@ -8,7 +8,7 @@ public class ParkingLot {
 
   public ParkingLot() { // Constructor
     carsInTheParkingLot = new ArrayList<Car>();
-    capacity = 0;
+    capacity = 100;
   }
 
   public void setCapacity(int c) {
